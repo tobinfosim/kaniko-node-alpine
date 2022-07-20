@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: kaniko-node-alpine:latest
+          tags: tobinfosim/kaniko-node-alpine:latest
